@@ -7,14 +7,14 @@ public class practice1 {
 //        85, 90, 78
 
         int[] scores = {85, 90, 78};
-        int average = 0;
+        int sum = 0;
 
         for (int i = 0; i < scores.length; i++) {
 
             System.out.println("학생 " + (i + 1) + " : " + scores[i] + "점");
-            average += scores[i];
+            sum += scores[i];
         }
 
-        System.out.println("평균 점수는 " + (average / 3) + "점입니다.");
+        System.out.println("평균 점수는 " + (sum / 3) + "점입니다.");
     }
 }
